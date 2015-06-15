@@ -5,15 +5,15 @@ This is a quick tutorial on how to assembly the Arty Bot. This is one of the sim
 - http://roboteurs.com/collections/all/products/printabots-mini-kit
 
 ## Kit Requirements ##
-![](required_parts.png)
+![](images/required_parts.png "Caption")
 - 3 servo motors
 - 1 base, 1 carriage, 1 arm, 1 mid arm (All 3d printed)
 - 1 pen/markter
 - 1 elastic of some tape
 
-### Step 1 - Mount the fisrt servo on the base ###
+### Step 1 - Mount the first servo on the base ###
 ![](images/step1.png)
-In this step we will mount the first servo to the printed base part. Only one screw is required to hold the motor in place. Depending on the accuracy of your printer you may have to apply a bit of force to insert the screw.
+In this step we will mount the first servo to the printed base part. Only one screw is required to hold the motor in place. Depending on the acscuracy of your printer you may have to apply a bit of force to insert the screw.
 
 ### Step 2 - Install arm inside carriage ###
 ![](images/step2.png)
@@ -43,10 +43,10 @@ Attach the end arm to the servo you install in Step 6. Make sure your servo was 
 ![](images/step8.png)
 This step is the simplest and most rewarding! Install the arm assembly you just made onto the servo inside the carriage. Make sure the servo was turned to zero before screwing into place. Now your robot is fully assembled. Great Work! Time to program it.
 
-### Finsihed Art Bot ###
+## Finished Arty Bot ##
 ![](images/fin.png)
 
-## Trouble Shooting ##
-- Check that all servo are turned to the zero position before assembling any robot
-- If your 3D printer is over extruding the parts may not fit together well. You can file off extra material to make things fit. Or just be creative!
-- If your parts broke when you where assembling try printing with a higher density
+> **Trouble Shooting:**
+>- Check that all servo are turned to the zero position before assembling any robot
+>- If your 3D printer is over extruding the parts may not fit together well. You can file off extra material to make things fit. Or just be creative!
+>- If your parts broke when you where assembling try printing with a higher density
