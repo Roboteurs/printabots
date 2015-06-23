@@ -103,6 +103,7 @@ Programming the robot to walk is a lot of fun. All we have to do is program in a
 
 If figuring all this out seems a bit too daunting you can copy and paste the robots sample code instead. This code can be modified to make the robot do all kinds of fun things.
 
+Sample Code: https://github.com/Roboteurs/printabots/blob/master/funny_feet/programming/simple_walk.ino
 
 > **Trouble Shooting:**
 >- Check that the USB cables are connected correctly
