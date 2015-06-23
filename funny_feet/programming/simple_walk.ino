@@ -7,7 +7,7 @@ Servo servos[4] = {RightFoot, RightHip, LeftFoot, LeftHip}; //define the differn
 int servoHome[4] = {76, 105, 130, 92};                      //sets the home position of the servo
 int servoCurrent[4] = {0,0,0,0};                            //current servo position
 
-/* setup the robot
+/* setup the robot */
 void setup()
 {
   init_servos();
