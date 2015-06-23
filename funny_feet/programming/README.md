@@ -49,7 +49,8 @@ If you entered the code correctly and uploaded it to the Launchpad you should se
 
 
 ### Step 3 - Wire the Motors ###
-![](images/step3.png)
+![](images/basic_servo.png)
+
 The above image shows how we want to connect all the wires to the Launchpad Servo Booster pack. Note that the pins for the servo connection are labeled on the board. These numbers (ie. P1.3) will relate to the pin number on the side of the booster pack. For now we will connect one servo just for practice. Later we will connect the robot motors in the same way.
 
 - connect the servo to P1.3
@@ -81,11 +82,18 @@ void loop()
 If you enter this code into Energia and upload it to the Launchpad you will notice that your servo will quickly move to its middle position and stay there. If you apply a small amount of force to rotate the servo you will notice it fights back at you. You can experiment with different angles using ```servo.write()``` to see the range of the servo.
 
 ### Step 5 - Wiring the Robots Motors ###
-![](images/step5.png)
+![](images/all_servos.png)
+
 Next we will install all the servo motors for the robot. To do this we connect them in the same way as before. We are going to use some specific pins that will be used in future projects, however you can use whatever pins you like.
 
+- Right foot: P1.0 (Pin 2)
+- Right hip: P1.3 (Pin 5)
+- Left foot: P1.4 (Pin 6)
+- Left Hip: P2.1 (Pin 9)
+
 ### Step 6 - Program the Robot to Walk ###
-![](images/step6.png)
+![](images/robot_servos.png)
+
 Programming the robot to walk is a lot of fun. All we have to do is program in a sequence of angles and the servos will move to these angles. If the angles are correct the robot will walk around. When you are creating this sequence of angles think about how the robot might move. There is more than one way to get the robot walking.
 
 >1. angle a foot to lift the robot so it is standing on one leg
